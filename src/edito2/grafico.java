@@ -245,32 +245,22 @@ public class grafico extends JFrame {
 
         @Override
         public void windowIconified(WindowEvent e) {
-            /* /*  solucion de error de expancion de texto */
-            texto_carga = texto_carga_activo;
-            panel_tex.setFont(new Font("", 0, 10));//el problema de la pantalla se daba
-            // porque el tamaño de fuente se matiene al cerar la ventana */
+
         }
 
         @Override
         public void windowDeiconified(WindowEvent e) {
-            /* solucion de error de expancion de texto */
-            /*  System.out.println("hola   ");
-            panel_tex.setText(texto_carga);*/
-            //  panel_tex.setFont(new Font("", tipo_letras, tamaño));//el problema de la pantalla se daba
-            // porque el tamaño de fuente se matiene al cerar la ventana */
+
         }
 
         @Override
         public void windowActivated(WindowEvent e) {
-            /*  solucion de error de expancion de texto */
-            /*     panel_tex.setText(texto_carga);*/
+         
         }
 
         @Override
         public void windowDeactivated(WindowEvent e) {
-            /*  solucion de error de expancion de texto */
-            /* texto_carga = texto_carga_activo;
-            panel_tex.setText("");*/
+
         }
 
     }
