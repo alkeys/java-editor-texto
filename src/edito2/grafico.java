@@ -274,12 +274,12 @@ public class grafico extends JFrame {
 
         @Override
         public void mousePressed(MouseEvent e) {
-            System.out.println("1");
+            System.out.println("2");
         }
 
         @Override
         public void mouseReleased(MouseEvent e) {
-            System.out.println("1");
+            System.out.println("3");
         }
 
         @Override
