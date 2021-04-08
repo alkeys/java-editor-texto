@@ -269,24 +269,24 @@ public class grafico extends JFrame {
 
         @Override
         public void mouseClicked(MouseEvent e) {
-       
+        System.out.println("1");
         }
 
         @Override
         public void mousePressed(MouseEvent e) {
-           
+            System.out.println("1");
         }
 
         @Override
         public void mouseReleased(MouseEvent e) {
-          
+            System.out.println("1");
         }
 
         @Override
         public void mouseEntered(MouseEvent e) {
         //eventos de mouse se ocupo por el error de agrandamiento;
         panel_tex.setText(texto_carga);
-              panel_tex.setFont(new Font("",tipo_letras, tamaño));
+        panel_tex.setFont(new Font("",tipo_letras, tamaño));
         }
 
         @Override
